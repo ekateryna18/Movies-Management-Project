@@ -1,0 +1,5 @@
+100,Venom,horror,2021,tom hardy
+200,La La Land,musical,2016,Ryan Gosling
+300,Tabara,comedie,2021,Selly
+400,Black Panther,actiune,2018,Chadwick Boseman
+500,The conjouring,horror,2013,Vera Farmiga

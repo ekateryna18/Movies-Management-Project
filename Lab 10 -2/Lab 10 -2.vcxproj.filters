@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Lab102.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="film_repo.cpp">
+      <Filter>repository</Filter>
+    </ClCompile>
+    <ClCompile Include="film.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="validator.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>service</Filter>
+    </ClCompile>
+    <ClCompile Include="FilmStoreGUI.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+    <ClCompile Include="CosInchirieri.cpp">
+      <Filter>model</Filter>
+    </ClCompile>
+    <ClCompile Include="cosGUI.cpp">
+      <Filter>ui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Lab102.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Lab102.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Lab102.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="repository">
+      <UniqueIdentifier>{06692c50-1d40-40c9-943e-b6b961b6e3e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="model">
+      <UniqueIdentifier>{bf43a364-81cf-49f4-8cdb-8fcbef1a60cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="service">
+      <UniqueIdentifier>{24e17cb0-fb51-445f-8195-2b5b2360814a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{039b0ffa-5e18-4bc9-87f4-5f22d61baa52}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="film_repo.h">
+      <Filter>repository</Filter>
+    </ClInclude>
+    <ClInclude Include="film.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="validator.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>service</Filter>
+    </ClInclude>
+    <ClInclude Include="FilmStoreGUI.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="CosInchirieri.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="undo.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="cosGUI.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="cosfilm.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="cosGUI2.h">
+      <Filter>model</Filter>
+    </ClInclude>
+    <ClInclude Include="CartGUIModel.h">
+      <Filter>ui</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTableModel.h">
+      <Filter>model</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
