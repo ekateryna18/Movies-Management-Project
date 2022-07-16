@@ -35,7 +35,7 @@ bool FilmRepo::exist(const Film& f) {
 void FilmRepo::add(const Film& f)
 {
 	if (exist(f)) {
-		throw FilmRepoException("Exista deja un film cu id: " + to_string(f.getId()));
+		throw FilmRepoException("There is already a movie with this id: " + to_string(f.getId()));
 	}
 	allFilms.push_back(f);
 }
@@ -63,7 +63,7 @@ auto FilmRepo::get_by_title(string title) -> vector<Film>::iterator {
 			return it;
 		}
 	}
-	throw FilmRepoException("Nu exista film cu titlul dat!");
+	throw FilmRepoException("No movie existing with this title!");
 }
 
 int FilmRepo::size() {
