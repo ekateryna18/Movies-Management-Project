@@ -19,7 +19,7 @@ auto FilmRepo::find(int id) -> vector<Film>::iterator {
 		return f;
 	else {
 		//daca nu exista arunca exceptie
-		throw FilmRepoException("Nu exista film cu id: " + to_string(id));
+		throw FilmRepoException("No movie existing with this id: " + to_string(id));
 	}
 }
 
